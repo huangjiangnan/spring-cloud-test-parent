@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 * @version V1.0  创建时间：2018年3月7日 上午1:01:25 
 */
 
-@FeignClient(value = "provider-service")
+@FeignClient(value = "provider-service",fallback = TestServiceImpl.class)
 public interface TestService {
 	
 	@RequestMapping(value = "/hello",method = RequestMethod.POST)
