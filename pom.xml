@@ -55,6 +55,8 @@
  	<module>spring-cloud-eureka-server</module>
  	<module>spring-cloud-eureka-provider</module>
  	<module>spring-cloud-eureka-consumer</module>
+ 	<module>spring-cloud-zuul</module>
+ 	<module>spring-cloud-config-client</module>
  </modules>
  
  <repositories>
